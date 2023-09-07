@@ -60,7 +60,7 @@ footer {
   flex: 1 0 20%;
   padding: 0.5rem;
   font-size: 1.5rem;
-  width: 15px;
+  width: 10px;
   height: 45px;
   text-align: center;
 }
@@ -75,4 +75,25 @@ footer {
   align-items: center;
   margin: 1rem 0 0 0;
   padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border: 0.10rem solid;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+  background: #ff9100;
+}
+
+a>img {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
 }
